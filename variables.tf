@@ -29,10 +29,3 @@ variable "management_resources_location" {
   type    = string
   default = "eastus"
 }
-
-variable "management_resources_tags" {
-  type = map(string)
-  default = {
-    demo_type = "deploy_management_resources_custom"
-  }
-}
