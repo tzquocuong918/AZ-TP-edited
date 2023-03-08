@@ -38,8 +38,8 @@ locals {
       }
     }
 
-    location = var.management_resources_location
-    tags     = var.management_resources_tags
+    location = null
+    tags     = null
     advanced = null
   }
 }
