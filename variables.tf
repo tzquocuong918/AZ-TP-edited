@@ -2,7 +2,7 @@
 
 variable "root_id" {
   type    = string
-  default = "CSC X"
+  default = "CSC-JSC"
 }
 
 variable "root_name" {
