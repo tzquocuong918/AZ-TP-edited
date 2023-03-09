@@ -2,12 +2,12 @@
 
 variable "root_id" {
   type    = string
-  default = "CSC-Morphe"
+  default = "CSC-Distributor"
 }
 
 variable "root_name" {
   type    = string
-  default = "CSC HR"
+  default = "CSC Team"
 }
 
 variable "deploy_management_resources" {
